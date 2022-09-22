@@ -15,13 +15,13 @@ const config: Config = {
     '!src/models/model.ts',
   ],
   coverageDirectory: 'tests/coverage',
-  // coverageThreshold: {
-  //   global: {
-  //     functions: 60,
-  //     lines: 50,
-  //     branches: 70
-  //   },
-  // },
+  coverageThreshold: {
+    global: {
+      functions: 60,
+      lines: 50,
+      branches: 95
+    },
+  },
   setupFiles: [
     '<rootDir>/tests/setEnvVars.ts'
   ],
